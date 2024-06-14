@@ -120,7 +120,8 @@ fun LoginScreen(navController: NavHostController) {
             )
             Button(
                 onClick = {
-                    navController.navigate("credito")
+                    //TODO COLOCAR A ROTA DA NOVA SCREEN
+                    navController.navigate("")
                 },
                 modifier = Modifier
                     .padding(top = 16.dp)
