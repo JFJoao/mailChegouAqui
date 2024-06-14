@@ -32,6 +32,7 @@ class MainActivity : ComponentActivity() {
                         navController = navController,
                         startDestination = "login"
                     ) {
+                        //TODO DESCREVER A ROTA DAS SCREENS
                         composable(route = "login"){ LoginScreen(navController) }
                     }
 
