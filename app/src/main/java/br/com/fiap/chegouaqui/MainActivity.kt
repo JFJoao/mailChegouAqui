@@ -1,5 +1,6 @@
 package br.com.fiap.chegouaqui
 
+import androidx.navigation.compose.rememberNavController
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -10,6 +11,10 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.navigation.Navigation
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import br.com.fiap.chegouaqui.screens.LoginScreen
 import br.com.fiap.chegouaqui.ui.theme.ChegouAquiTheme
 
 class MainActivity : ComponentActivity() {
@@ -22,7 +27,14 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Android")
+                    val navController = rememberNavController()
+                    NavHost(
+                        navController = navController,
+                        startDestination = "login"
+                    ) {
+                        composable(route = "login"){ LoginScreen(navController) }
+                    }
+
                 }
             }
         }
