@@ -18,22 +18,23 @@ em versão futura adicionaremos uma AI para gerar dados de interesse do usuário
     - Estruturação do projeto no Android Studio ✔️
 
 3. **Design da Interface do Usuário (UI)**
-    - Tela de login ⏳
-    - Tela principal com lista de ultimas mensagens de alerta enviadas
-    - Tela de cadastro de contas 
+    - Tela de login 
+    - Tela principal com lista de ultimas mensagens de alerta que deram match
+    - Tela de cadastro de contas de mail
+    - Tela exibindo emails
     - Tela de configurações para palavras-chave
 
 4. **Gerenciamento de Contas de E-mail**
-    - Integração com APIs de e-mail (Gmail, Outlook, etc.)
-    - Autenticação e permissão de acesso
+    - Integração com APIs de e-mail (Gmail, Outlook, etc.) ⏳
+    - Autenticação e permissão de acesso ✔️
 
 5. **Monitoramento de E-mails**
     - Configuração de palavras-chave pelo usuário
     - Monitoramento contínuo das caixas de entrada
 
 6. **Envio de Notificações via WhatsApp**
-    - Integração com a API do WhatsApp
-    - Envio de mensagens automatizadas
+    - Integração com a API do WhatsApp ⏳
+    - Envio de mensagens automatizadas ⏳
 
 7. **Configuração de Banco de Dados Local**
     - Armazenamento de configurações do usuário
