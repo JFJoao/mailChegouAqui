@@ -10,7 +10,7 @@ repositories {
 }
 
 android {
-    namespace = "br.com.fiap.chegouaqui"  // Adicione a linha do namespace aqui
+    namespace = "br.com.fiap.chegouaqui" 
     compileSdk = (33)
     defaultConfig {
         applicationId = "com.example.chegouaqui"
