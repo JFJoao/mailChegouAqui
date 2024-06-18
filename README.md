@@ -19,18 +19,19 @@ em versão futura adicionaremos uma AI para gerar dados de interesse do usuário
 
 3. **Design da Interface do Usuário (UI)**
     - Tela de login ✔️
-    - Tela principal com lista de ultimas mensagens de alerta que deram match
-    - Tela de cadastro de contas de mail
-    - Tela exibindo emails
+    - Tela principal com lista de ultimas mensagens de alerta que deram match ✔️
+    - Tela de cadastro de contas de mail ✔️
+    - Tela exibindo emails ✔️
     - Tela de configurações para palavras-chave
 
 4. **Gerenciamento de Contas de E-mail**
-    - Integração com APIs de e-mail (Gmail, Outlook, etc.) ⏳
+    - Integração com APIs de e-mail (Gmail, Outlook, etc.) ✔️
     - Autenticação e permissão de acesso ✔️
 
 5. **Monitoramento de E-mails**
     - Configuração de palavras-chave pelo usuário
-    - Monitoramento contínuo das caixas de entrada
+    - Integração com google agenda ✔️
+    - Monitoramento contínuo das caixas de entrada ✔️
 
 6. **Envio de Notificações via WhatsApp**
     - Integração com a API do WhatsApp ⏳
@@ -38,7 +39,7 @@ em versão futura adicionaremos uma AI para gerar dados de interesse do usuário
 
 7. **Configuração de Banco de Dados Local**
     - Armazenamento de configurações do usuário ✔️
-    - Armazenamento de registros de monitoramento
+    - Armazenamento de registros de monitoramento ✔️
 
 8. **Testes e Depuração**
     - Testes unitários
@@ -46,7 +47,7 @@ em versão futura adicionaremos uma AI para gerar dados de interesse do usuário
     - Debugging e correção de bugs
 
 9. **Publicação**
-    - Preparação para publicação na Google Play Store
+    - Preparação para publicação na Google Play Store 
     - Criação de documentação e tutoriais
 
 ## Licença
